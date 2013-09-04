@@ -1,0 +1,162 @@
+
+/*
+Theme Name:     LowerMedia wp2012 Child
+Theme URI:      http://example.com/
+Description:    Child theme for the Twenty Twelve theme
+Author:         @9eteygreen
+Author URI:     http://example.com/about/
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+body .site-header {
+	margin-top:0;
+	margin-bottom:0;
+	padding: 1rem 2.85714rem;
+}
+
+.sticky-wrapper {
+	background:white;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	border: none;
+}
+
+.site {
+	max-width:100%;
+}
+
+.shift-center {
+	max-width: 68.5714rem;
+	margin:auto;
+}
+
+/*---------------SIMPLE CSS3 SLIDER--------------*/
+
+
+/*----------------------lowermedia_css3_slider-------------------------------*/
+#lowermedia_css3_slider {
+  text-align: center;
+  position: relative;
+  background-image: url(http://local.wordpress/media/slider-horizontal.jpg);/*../images/slider-horizontal.jpg*/
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 400%;
+  padding-bottom: 32.5%;
+  -webkit-animation: h_slide 24s ease-out infinite;
+  -moz-animation: h_slide 24s ease-out infinite;
+  animation: h_slide 24s ease-out infinite; }
+
+h1 {
+  font-family: "BebasNeueRegular", "Arial Narrow", Arial, sans-serif; 
+  font-size: 2.75em;
+  background: white;
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: .25em; }
+
+h1:after {
+  content: "";
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: .5em;
+  z-index: -1;
+  border-top: 1px solid #504331;
+  border-bottom: 1px solid #504331; }
+
+
+/*--------------------retina display background image-------------------------------*/
+  @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .links {
+      background: url(../images/map@2x.png) bottom center no-repeat;
+      background-size: 300px 151px; } }
+
+@-webkit-keyframes h_slide {
+  0% {
+    background-position: 0% bottom; }
+
+  20% {
+    background-position: 0% bottom; }
+
+  25% {
+    background-position: 33.33333% bottom; }
+
+  45% {
+    background-position: 33.33333% bottom; }
+
+  50% {
+    background-position: 66.66667% bottom; }
+
+  70% {
+    background-position: 66.66667% bottom; }
+
+  75% {
+    background-position: 100% bottom; }
+
+  95% {
+    background-position: 100% bottom; }
+
+  100% {
+    background-position: 133.33% bottom; } }
+
+@-moz-keyframes h_slide {
+  0% {
+    background-position: 0% bottom; }
+
+  20% {
+    background-position: 0% bottom; }
+
+  25% {
+    background-position: 33.33333% bottom; }
+
+  45% {
+    background-position: 33.33333% bottom; }
+
+  50% {
+    background-position: 66.66667% bottom; }
+
+  70% {
+    background-position: 66.66667% bottom; }
+
+  75% {
+    background-position: 100% bottom; }
+
+  95% {
+    background-position: 100% bottom; }
+
+  100% {
+    background-position: 133.33% bottom; } }
+
+@keyframes h_slide {
+  0% {
+    background-position: 0% bottom; }
+
+  20% {
+    background-position: 0% bottom; }
+
+  25% {
+    background-position: 33.33333% bottom; }
+
+  45% {
+    background-position: 33.33333% bottom; }
+
+  50% {
+    background-position: 66.66667% bottom; }
+
+  70% {
+    background-position: 66.66667% bottom; }
+
+  75% {
+    background-position: 100% bottom; }
+
+  95% {
+    background-position: 100% bottom; }
+
+  100% {
+    background-position: 133.33% bottom; } }
