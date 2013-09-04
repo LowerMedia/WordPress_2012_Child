@@ -29,9 +29,19 @@ body .site-header {
 	max-width:100%;
 }
 
+#main {
+  margin-top:0;
+}
+
 .shift-center {
 	max-width: 68.5714rem;
 	margin:auto;
+}
+
+footer#colophon {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
 }
 
 /*---------------SIMPLE CSS3 SLIDER--------------*/
@@ -44,7 +54,7 @@ body .site-header {
   background-image: url(http://local.wordpress/media/slider-horizontal.jpg);/*../images/slider-horizontal.jpg*/
   background-repeat: repeat-x;
   background-position: 0 bottom;
-  background-size: 400%;
+  background-size: 415%;
   padding-bottom: 32.5%;
   -webkit-animation: h_slide 24s ease-out infinite;
   -moz-animation: h_slide 24s ease-out infinite;
